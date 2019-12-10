@@ -2,170 +2,257 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Movie Wheel</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jkstyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css"
+		integrity="sha256-PtBWX+v2TI0iuYI3rZrQft5kfd3ZkdPd8iVMZoE1rxE=" crossorigin="anonymous" />
+	<title>Movie Wheel</title>
 </head>
 
 <body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-nice-dark">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo.png" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-  <!-- just more tests -->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-empty">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Movies</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Account
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Sign In</a>
+							<a class="dropdown-item" href="#">Sign Up</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+		<div class="row">
+			<div class="col-12 no-margin">
+				<div class="bg-section position-relative">
+					<img src="images/Silicon-Valley.jpg" class="img-fluid jk-img position-absolute" />
+					<img src="images/gradient.png" class="img-fluid jk-gradient position-absolute" />
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center">
+							<img style="margin-bottom: -50px;" src="images/silicon-valley-logo.png" class="img-fluid" />
+							<h1 class="movie-latest text-white">Season 7</h1>
+							<p style="max-width: 300px; margin: auto;" class="font-md color-white">Next season of
+								awesome programmers
+								life.. "programmers" is
+								main keyword
+								here, check it
+								out by yourself!</p>
+							<button class="btn btn-primary btn-light my-2 my-sm-0">Check now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container position-relative">
+			<div class="container custom-margin-big">
+				<!-- Latest 7 Movies Added -->
+				<h5 class="movie-latest text-white">Latest Uploads</h5>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Movies</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Account
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Sign In</a>
-              <a class="dropdown-item" href="#">Sign Up</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
 
-    <div class="container container-custom">
-      <!-- Latest 7 Movies Added -->
-      <h5 class="movie-latest text-white"> Latest Uploads</h5>
+				</div>
 
-      <div class="row">
+			</div>
+			<div class="container custom-margin-med">
+				<!-- Latest 7 Movies Added -->
+				<h5 class="movie-latest text-white">Trending now</h5>
 
-        <div class="col-2">
-          <div class="card bg-dark" style="width: 11rem;">
-            <img src="images/1.jpg" class="card-img">
-            <div class="card-img-overlay">
-              <h5 class="card-title"><a href="#">Venom</a></h5>
-              <div class="card-text">
-                <div class="rating">4.5</div>
-                <div class="description">
-                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
-                  bullfighter.
-                </div>
-              </div>
-              <a href="#" class="btn btn-primary">Review</a>
-            </div>
-          </div>
-        </div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-2 text-center">
+						<div class="card bg-empty">
+							<img src="images/1.jpg" class="card-img">
+							<div class="card-body">
+								<div class="jk-rating-wrap">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<h6 class="card-title jk-card-title"><a href='#'>Venom</a></h6>
+							</div>
+						</div>
+					</div>
 
-        <div class="col-2">
-          <div class="card bg-dark" style="width: 11rem;">
-            <img src="images/1.jpg" class="card-img">
-            <div class="card-img-overlay">
-              <h5 class="card-title"><a href="#">Venom</a></h5>
-              <div class="card-text">
-                <div class="rating">4.5</div>
-                <div class="description">
-                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
-                  bullfighter.
-                </div>
-              </div>
-              <a href="#" class="btn btn-primary">Review</a>
-            </div>
-          </div>
-        </div>
+				</div>
 
-        <div class="col-2">
-          <div class="card bg-dark" style="width: 11rem;">
-            <img src="images/1.jpg" class="card-img">
-            <div class="card-img-overlay">
-              <h5 class="card-title"><a href="#">Venom</a></h5>
-              <div class="card-text">
-                <div class="rating">4.5</div>
-                <div class="description">
-                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
-                  bullfighter.
-                </div>
-              </div>
-              <a href="#" class="btn btn-primary">Review</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-2">
-          <div class="card bg-dark" style="width: 11rem;">
-            <img src="images/1.jpg" class="card-img">
-            <div class="card-img-overlay">
-              <h5 class="card-title"><a href="#">Venom</a></h5>
-              <div class="card-text">
-                <div class="rating">4.5</div>
-                <div class="description">
-                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
-                  bullfighter.
-                </div>
-              </div>
-              <a href="#" class="btn btn-primary">Review</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-2">
-          <div class="card bg-dark" style="width: 11rem;">
-            <img src="images/1.jpg" class="card-img">
-            <div class="card-img-overlay">
-              <h5 class="card-title"><a href="#">Venom</a></h5>
-              <div class="card-text">
-                <div class="rating">4.5</div>
-                <div class="description">
-                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
-                  bullfighter.
-                </div>
-              </div>
-              <a href="#" class="btn btn-primary">Review</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-2">
-          <div class="card bg-dark" style="width: 11rem;">
-            <img src="images/1.jpg" class="card-img">
-            <div class="card-img-overlay">
-              <h5 class="card-title"><a href="#">Venom</a></h5>
-              <div class="card-text">
-                <div class="rating">4.5</div>
-                <div class="description">
-                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
-                  bullfighter.
-                </div>
-              </div>
-              <a href="#" class="btn btn-primary">Review</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="js/bootstrap.js"></script>
+			</div>
+		</div>
+		<div class="row custom-margin-med">
+			<div class="col-12 no-margin">
+				<div class="footer-body text-center pb-5">
+					<img src="images/logo.png" class="img-fluid mt-5" />
+					<p class="color-white">All rights reserved by (i dont know your name Adventure xD)</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 
 </html>
