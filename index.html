@@ -1,154 +1,171 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<title>Movie Wheel</title>
-	</head>
-	<body>
-    <div class="container">
-		  <nav class="navbar navbar-expand-lg navbar-dark bg-empty">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-        </button>
 
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav mr-auto">
-           <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-           </li>
-           <li class="nav-item">
-              <a class="nav-link" href="#">Movies</a>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Movie Wheel</title>
+</head>
+
+<body>
+
+  <!-- just more tests -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-empty">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
           </li>
           <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Account
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Sign In</a>
-                <a class="dropdown-item" href="#">Sign Up</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-          </form>
-         </div>
-       </nav>
-      
-       <div class="container container-custom">
-             <!-- Latest 7 Movies Added -->
-             <h5 class="movie-latest text-white"> Latest Uploads</h5>
-             
-             <div class="row">
-            
-             <div class="col-2">
-             <div class="card bg-dark" style="width: 11rem;">
-             <img src="images/1.jpg" class="card-img">
-               <div class="card-img-overlay">
-                  <h5 class="card-title"><a href="#">Venom</a></h5>
-                  <div class="card-text">
-                    <div class="rating">4.5</div>
-                    <div class="description">
-                      A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female bullfighter.
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-primary">Review</a>
-                </div>
-             </div>
-             </div> 
-             
-             <div class="col-2">
-             <div class="card bg-dark" style="width: 11rem;">
-             <img src="images/1.jpg" class="card-img">
-               <div class="card-img-overlay">
-                  <h5 class="card-title"><a href="#">Venom</a></h5>
-                  <div class="card-text">
-                    <div class="rating">4.5</div>
-                    <div class="description">
-                      A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female bullfighter.
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-primary">Review</a>
-                </div>
-             </div>
-             </div>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Account
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Sign In</a>
+              <a class="dropdown-item" href="#">Sign Up</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-            <div class="col-2">
-             <div class="card bg-dark" style="width: 11rem;">
-             <img src="images/1.jpg" class="card-img">
-               <div class="card-img-overlay">
-                  <h5 class="card-title"><a href="#">Venom</a></h5>
-                  <div class="card-text">
-                    <div class="rating">4.5</div>
-                    <div class="description">
-                      A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female bullfighter.
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-primary">Review</a>
-                </div>
-             </div>
-             </div>
+    <div class="container container-custom">
+      <!-- Latest 7 Movies Added -->
+      <h5 class="movie-latest text-white"> Latest Uploads</h5>
 
-             <div class="col-2">
-             <div class="card bg-dark" style="width: 11rem;">
-             <img src="images/1.jpg" class="card-img">
-               <div class="card-img-overlay">
-                  <h5 class="card-title"><a href="#">Venom</a></h5>
-                  <div class="card-text">
-                    <div class="rating">4.5</div>
-                    <div class="description">
-                      A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female bullfighter.
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-primary">Review</a>
-                </div>
-             </div>
-             </div>
+      <div class="row">
 
-             <div class="col-2">
-             <div class="card bg-dark" style="width: 11rem;">
-             <img src="images/1.jpg" class="card-img">
-               <div class="card-img-overlay">
-                  <h5 class="card-title"><a href="#">Venom</a></h5>
-                  <div class="card-text">
-                    <div class="rating">4.5</div>
-                    <div class="description">
-                      A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female bullfighter.
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-primary">Review</a>
+        <div class="col-2">
+          <div class="card bg-dark" style="width: 11rem;">
+            <img src="images/1.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><a href="#">Venom</a></h5>
+              <div class="card-text">
+                <div class="rating">4.5</div>
+                <div class="description">
+                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
+                  bullfighter.
                 </div>
-             </div>
-             </div>
+              </div>
+              <a href="#" class="btn btn-primary">Review</a>
+            </div>
+          </div>
+        </div>
 
-             <div class="col-2">
-             <div class="card bg-dark" style="width: 11rem;">
-             <img src="images/1.jpg" class="card-img">
-               <div class="card-img-overlay">
-                  <h5 class="card-title"><a href="#">Venom</a></h5>
-                  <div class="card-text">
-                    <div class="rating">4.5</div>
-                    <div class="description">
-                      A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female bullfighter.
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-primary">Review</a>
+        <div class="col-2">
+          <div class="card bg-dark" style="width: 11rem;">
+            <img src="images/1.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><a href="#">Venom</a></h5>
+              <div class="card-text">
+                <div class="rating">4.5</div>
+                <div class="description">
+                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
+                  bullfighter.
                 </div>
-             </div>
-             </div>
+              </div>
+              <a href="#" class="btn btn-primary">Review</a>
+            </div>
+          </div>
+        </div>
 
-             </div>
-             
+        <div class="col-2">
+          <div class="card bg-dark" style="width: 11rem;">
+            <img src="images/1.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><a href="#">Venom</a></h5>
+              <div class="card-text">
+                <div class="rating">4.5</div>
+                <div class="description">
+                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
+                  bullfighter.
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary">Review</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="card bg-dark" style="width: 11rem;">
+            <img src="images/1.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><a href="#">Venom</a></h5>
+              <div class="card-text">
+                <div class="rating">4.5</div>
+                <div class="description">
+                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
+                  bullfighter.
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary">Review</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="card bg-dark" style="width: 11rem;">
+            <img src="images/1.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><a href="#">Venom</a></h5>
+              <div class="card-text">
+                <div class="rating">4.5</div>
+                <div class="description">
+                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
+                  bullfighter.
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary">Review</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="card bg-dark" style="width: 11rem;">
+            <img src="images/1.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><a href="#">Venom</a></h5>
+              <div class="card-text">
+                <div class="rating">4.5</div>
+                <div class="description">
+                  A twist on the Snow White fairy tale that is set in 1920s Seville and centered on a female
+                  bullfighter.
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary">Review</a>
+            </div>
+          </div>
         </div>
 
       </div>
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		  <script src="js/bootstrap.js"></script>
-	</body>
+
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
 </html>
