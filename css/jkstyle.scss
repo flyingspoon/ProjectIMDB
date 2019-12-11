@@ -13,6 +13,7 @@ $font-sm: 10px;
 body {
     background: #1e1e1e;
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 a {
@@ -157,6 +158,9 @@ hr {
 }
 
 .jk-gradient {
+    position: absolute;
+    width: 100vw;
+    height: auto;
     top: 100%;
 }
 
