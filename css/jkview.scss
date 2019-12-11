@@ -58,10 +58,17 @@ $font-sm: 10px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            align-items: center;
 
-            h5 {
-                width: 100%;
+            .left-review-head {
+                width: 49%;
             }
+
+            .right-review-head {
+                width: 49%;
+                text-align: right;
+            }
+
 
             .review {
                 width: 100%;

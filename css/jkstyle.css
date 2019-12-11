@@ -127,6 +127,16 @@ hr {
 }
 
 /** Extra **/
+.jk-text-input {
+  background-color: #333333;
+  border: 1px solid #dd0034;
+  border-radius: 20px;
+  padding: 7px 10px 7px 10px;
+  font-size: 13px;
+  color: #fff;
+  width: 45%;
+}
+
 .no-margin {
   margin: 0;
   padding: 0;

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/jkstyle.css">
     <link rel="stylesheet" href="css/jkview.css">
+    <link rel="stylesheet" href="css/jkmodal.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css"
         integrity="sha256-PtBWX+v2TI0iuYI3rZrQft5kfd3ZkdPd8iVMZoE1rxE=" crossorigin="anonymous" />
@@ -109,7 +110,34 @@
                                     <p>Season 5<i class="fas fa-circle"></i>9 episodes</p>
                                 </div>
                                 <div class="reviews">
-                                    <h5>Reviews</h5>
+                                    <div class="left-review-head">
+                                        <h5>Reviews</h5>
+                                    </div>
+                                    <div class="right-review-head">
+                                        <button id="openReviewModal" class="btn btn-primary btn-light my-2 my-sm-0">Add
+                                            review</button>
+                                    </div>
+
+                                    <div class="jk-modal">
+                                        <h5>Add review</h5>
+                                        <p>Fill all fields to add a new review</p>
+                                        <form class="text-center">
+                                            <input class="jk-text-input" type="text" name="text"
+                                                placeholder="Description" />
+                                            <div class="user-rating" style="margin-top: 15px;">
+                                                <i data-rate="1" class="far fa-star"></i>
+                                                <i data-rate="2" class="far fa-star"></i>
+                                                <i data-rate="3" class="far fa-star"></i>
+                                                <i data-rate="4" class="far fa-star"></i>
+                                                <i data-rate="5" class="far fa-star"></i>
+                                            </div>
+                                            <input class="btn btn-primary btn-light my-2 my-sm-0" type="submit"
+                                                style="margin-top: 30px !important;" />
+                                            <button id="closeReviewModal" class="btn btn-primary btn-light my-2 my-sm-0"
+                                                style="margin-top: 30px !important;">Close</button>
+                                        </form>
+                                    </div>
+
                                     <div class="review text-center">
                                         <h5>Jekorgi</h5>
                                         <div class="user-rating">
@@ -169,6 +197,7 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/review.js"></script>
 </body>
 
 </html>

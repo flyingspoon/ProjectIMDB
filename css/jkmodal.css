@@ -1,0 +1,45 @@
+.jk-modal {
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+          transform: translateX(-50%) translateY(-50%) scale(1);
+  padding: 20px 35px 20px 35px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (min-width: 768px) {
+  .jk-modal {
+    width: 50%;
+  }
+}
+
+.jk-modal h5 {
+  font-size: 25px;
+  opacity: 1;
+}
+
+.jk-modal p {
+  font-size: 13px;
+  opacity: 0.4 !important;
+}
+
+.jk-modal i {
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #333333;
+  color: #dd0034;
+}
+
+.modal-anim {
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(0.7);
+          transform: translateX(-50%) translateY(-50%) scale(0.7);
+  opacity: 0;
+  z-index: -5;
+}
+/*# sourceMappingURL=jkmodal.css.map */
