@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    let isModalActive = true;
+    $(".jk-modal").css("display", "none").addClass("modal-anim");
     $("#openReviewModal").click(function () {
-        $(".jk-modal").removeClass("modal-anim");
+        $(".jk-modal").css("display", "block").removeClass("modal-anim");
     })
     $("#closeReviewModal").click(function (e) {
         e.preventDefault();
